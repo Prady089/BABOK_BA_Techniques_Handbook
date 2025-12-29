@@ -69,6 +69,8 @@ Represent how the process currently operates.
 ### To-Be Process Models
 Represent the desired future-state process.
 
+<img width="1024" height="1536" alt="ChatGPT Image Dec 29, 2025, 03_52_38 PM" src="https://github.com/user-attachments/assets/cce41ddd-e012-47d3-bc33-636faffa5a67" />
+
 ---
 
 ## 6. Common Process Modelling Notations
