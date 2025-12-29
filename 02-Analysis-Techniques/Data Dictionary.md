@@ -54,18 +54,202 @@ In such cases, **inline data definitions** may be sufficient.
 
 ---
 
-## 5. Typical Components of a Data Dictionary
+## 5. Typical Components of a Data Dictionary (Detailed)
 
-A data dictionary commonly includes:
-- Data element name
-- Business definition
-- Data type and format
-- Allowed values or domains
-- Source system
-- Usage context
-- Ownership and stewardship
+A Data Dictionary provides a **single, authoritative reference** for how data is defined, used, and governed across the organization.  
+Each component plays a specific role in ensuring **clarity, consistency, and data quality**.
 
 ---
+
+### 5.1 Data Element Name
+
+The Data Element Name is the **unique identifier** used to refer to a specific piece of data.
+
+**Purpose:**
+- Enables consistent reference across documents, systems, and discussions
+- Prevents confusion caused by multiple names for the same data
+
+**Good practices:**
+- Use clear, business-friendly names
+- Avoid system-specific prefixes or abbreviations
+- Be consistent across the enterprise
+
+**Example:**
+`Customer_ID`, `Account_Balance`, `Transaction_Date`
+
+---
+
+### 5.2 Business Definition
+
+The Business Definition explains **what the data element means from a business perspective**, independent of how it is stored or processed technically.
+
+**Purpose:**
+- Creates shared understanding between business and IT
+- Prevents misinterpretation of data usage
+
+**Good practices:**
+- Use plain language
+- Avoid technical jargon
+- Be precise and unambiguous
+
+**Example:**
+“Account Balance represents the cleared monetary amount available in a customer’s account at the end of the business day.”
+
+---
+
+### 5.3 Data Type and Format
+
+This component defines **how the data is represented**, including its structure and format.
+
+**Purpose:**
+- Ensures consistency in storage and processing
+- Supports system design and integration
+
+**Typical attributes:**
+- Data type (Number, Text, Date, Boolean)
+- Length or precision
+- Format (e.g., YYYY-MM-DD)
+
+**Example:**
+`Decimal (15,2)` or `Date (YYYY-MM-DD)`
+
+---
+
+### 5.4 Allowed Values or Domains
+
+Allowed Values (or Domain) specify **the valid range or set of values** a data element can take.
+
+**Purpose:**
+- Prevents invalid or inconsistent data entry
+- Supports validation and data quality controls
+
+**Examples:**
+- Status = {Active, Inactive, Closed}
+- Currency Code = ISO 4217 values
+
+---
+
+### 5.5 Source System
+
+The Source System identifies **where the data originates**.
+
+**Purpose:**
+- Clarifies ownership and accountability
+- Supports data lineage and impact analysis
+- Helps resolve data discrepancies across systems
+
+**Example:**
+- Core Banking System
+- CRM Platform
+- External Vendor Feed
+
+---
+
+### 5.6 Usage Context
+
+Usage Context describes **how and where the data element is used** across processes, reports, or systems.
+
+**Purpose:**
+- Helps stakeholders understand business relevance
+- Supports impact analysis during change
+- Prevents misuse of data
+
+**Examples:**
+- Used in regulatory liquidity reports
+- Displayed on customer statements
+- Used for risk scoring calculations
+
+---
+
+### 5.7 Ownership and Stewardship
+
+Ownership and Stewardship define **who is responsible for the data element**.
+
+**Roles:**
+- **Data Owner:** Accountable for correctness and business meaning
+- **Data Steward:** Responsible for data quality and maintenance
+
+**Purpose:**
+- Enables governance and accountability
+- Ensures timely updates and issue resolution
+
+**Example:**
+- Data Owner: Finance Department
+- Data Steward: Reporting Operations Team
+
+---
+
+## 5.8 Why These Components Matter
+
+Together, these components:
+- Create a shared data language
+- Improve data quality and consistency
+- Support integration, reporting, and compliance
+- Enable effective data governance
+
+---
+
+## Key Takeaway
+
+A well-maintained Data Dictionary is not just documentation—it is a **critical governance and communication tool**.  
+Clear definitions, ownership, and usage context ensure data can be trusted and reused across the organization.
+
+---
+
+## 6. Sample Data Dictionary (Example)
+
+Below is a **practical sample data dictionary** illustrating how a Business Analyst would document data elements in a real-world banking / IT context.
+
+This format can be reused as a **template** across projects.
+
+---
+
+### Sample Data Dictionary – Customer & Account Domain
+
+| Data Element Name | Business Definition | Data Type & Format | Allowed Values / Domain | Source System | Usage Context | Data Owner | Data Steward |
+|------------------|--------------------|-------------------|-------------------------|---------------|---------------|------------|--------------|
+| Customer_ID | Unique identifier assigned to a customer within the bank | Alphanumeric (12) | System-generated | CRM System | Customer onboarding, reporting, integrations | Retail Banking | Data Governance Team |
+| Customer_Name | Full legal name of the customer | Text (100) | Alphabetic characters | CRM System | Statements, customer communications | Retail Banking | Customer Ops |
+| Account_Number | Unique identifier for a customer account | Numeric (12) | Digits only | Core Banking System | Transactions, reporting, reconciliation | Core Banking | Operations |
+| Account_Type | Category of account held by customer | Text (20) | Savings, Current, Loan | Core Banking System | Product reporting, fee calculation | Product Management | Data Governance Team |
+| Account_Balance | Cleared monetary balance available in the account | Decimal (15,2) | ≥ 0 | Core Banking System | Statements, liquidity reporting | Finance | Reporting Ops |
+| Currency_Code | Currency in which the account operates | Text (3) | ISO 4217 codes | Core Banking System | Reporting, FX calculations | Finance | Data Governance Team |
+| Transaction_Date | Date on which the transaction is posted | Date (YYYY-MM-DD) | Valid calendar dates | Transaction Processing System | Ledger posting, reporting | Finance | Operations |
+| Account_Status | Current lifecycle status of the account | Text (10) | Active, Inactive, Closed | Core Banking System | Compliance, reporting | Compliance | Operations |
+
+---
+
+## 6.1 How to Use This Sample
+
+- Use this structure as a **baseline template**
+- Add or remove columns based on project needs
+- Keep definitions **business-focused**
+- Validate with data owners and stakeholders
+- Maintain version control
+
+---
+
+## 6.2 Common Enhancements (Optional Columns)
+
+Depending on complexity, you may also include:
+- Data Sensitivity Classification
+- Regulatory Reference
+- Retention Period
+- Last Updated Date
+- Related Business Rules
+
+---
+
+## Key Takeaway
+
+A well-structured data dictionary:
+- Improves data quality
+- Reduces misinterpretation
+- Supports integration and compliance
+- Serves as a shared reference for business and IT
+
+This sample demonstrates **how theory translates into practice**.
+
 
 ## 6. How to Apply a Data Dictionary – Step by Step
 
