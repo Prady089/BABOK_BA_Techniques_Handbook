@@ -54,19 +54,176 @@ In such cases, **simple consensus or judgment** may suffice.
 
 ---
 
-## 5. Common Decision Analysis Techniques
+## 5. Common Decision Analysis Techniques (Detailed)
 
-### Weighted Scoring
-Options are scored against weighted criteria.
+Decision Analysis often uses **structured evaluation techniques** to compare options objectively and transparently.  
+These techniques help Business Analysts support **defensible decisions**, especially when trade-offs exist.
 
-### Cost-Benefit Analysis
-Compares expected costs to expected benefits.
+---
 
-### Risk Analysis
-Evaluates likelihood and impact of risks for each option.
+## 5.1 Weighted Scoring
 
-### Decision Matrix
-Tabular comparison of options and criteria.
+Weighted Scoring evaluates options by **scoring them against predefined criteria**, where each criterion has a **weight based on importance**.
+
+This technique is useful when not all criteria are equally important.
+
+### How it works
+1. Identify decision criteria (e.g., cost, risk, compliance, scalability)
+2. Assign a weight to each criterion (total usually = 100%)
+3. Score each option against each criterion
+4. Multiply score × weight
+5. Sum weighted scores to rank options
+
+### When to use
+- Multiple competing options exist
+- Stakeholders disagree on priorities
+- Objective comparison is required
+- Decisions must be auditable
+
+### Example (Banking / IT)
+
+**Decision:** Select a reporting platform
+
+| Criteria | Weight | Option A | Option B |
+|--------|--------|----------|----------|
+| Cost | 30% | 3 | 4 |
+| Compliance | 40% | 5 | 3 |
+| Scalability | 30% | 4 | 4 |
+
+Weighted totals determine the preferred option.
+
+### Advantages
+- Objective and transparent
+- Balances multiple priorities
+- Easy to explain to stakeholders
+
+### Limitations
+- Weights can be subjective
+- Requires consensus on scoring
+
+---
+
+## 5.2 Cost-Benefit Analysis
+
+Cost-Benefit Analysis compares **expected costs against expected benefits** to determine whether an option delivers net value.
+
+It answers the question:  
+**“Is this worth doing?”**
+
+### How it works
+1. Identify all costs (implementation, operational, change)
+2. Identify all benefits (financial and non-financial)
+3. Quantify where possible
+4. Compare total costs vs total benefits
+
+### When to use
+- Investment or funding decisions
+- Business case development
+- Regulatory or automation initiatives
+
+### Example (Banking / IT)
+
+**Option:** Automate reconciliation
+
+- Costs: Tool licensing, development, training
+- Benefits: Reduced manual effort, fewer errors, compliance improvement
+
+### Advantages
+- Strong financial justification
+- Easy for executives to understand
+
+### Limitations
+- Intangible benefits can be hard to quantify
+- Long-term benefits may be underestimated
+
+---
+
+## 5.3 Risk Analysis (Option-Level)
+
+In Decision Analysis, Risk Analysis evaluates **likelihood and impact of risks associated with each option**, not overall project risk.
+
+### How it works
+1. Identify risks per option
+2. Assess likelihood (Low / Medium / High)
+3. Assess impact (Low / Medium / High)
+4. Compare overall risk exposure
+
+### When to use
+- High-impact decisions
+- Regulated environments
+- Vendor or technology selection
+
+### Example (Banking / IT)
+
+| Option | Key Risk | Likelihood | Impact |
+|------|----------|------------|--------|
+| Build In-house | Skill gaps | Medium | High |
+| Vendor Solution | Vendor dependency | High | Medium |
+
+### Advantages
+- Highlights hidden risks
+- Prevents overly optimistic decisions
+
+### Limitations
+- Risk assessment can be subjective
+- Requires good historical insight
+
+---
+
+## 5.4 Decision Matrix
+
+A Decision Matrix is a **tabular technique** that compares options against criteria side-by-side.  
+It may or may not include weights.
+
+### How it works
+- List options as rows
+- List criteria as columns
+- Score each option against criteria
+- Compare totals or patterns
+
+### When to use
+- Early comparison of options
+- Workshops and group decisions
+- Visual stakeholder discussions
+
+### Example (Simplified)
+
+| Option | Cost | Risk | Compliance | Overall |
+|------|------|------|------------|---------|
+| Option A | Medium | Low | High | Strong |
+| Option B | Low | Medium | Medium | Moderate |
+
+### Advantages
+- Simple and visual
+- Good for workshops
+- Easy to facilitate
+
+### Limitations
+- Less precise without weighting
+- Can oversimplify complex decisions
+
+---
+
+## 5.5 Choosing the Right Decision Analysis Technique
+
+| Decision Need | Recommended Technique |
+|--------------|----------------------|
+| Balance multiple priorities | Weighted Scoring |
+| Financial justification | Cost-Benefit Analysis |
+| Risk-sensitive decision | Risk Analysis |
+| Group comparison | Decision Matrix |
+
+---
+
+## Key Takeaway
+
+Decision Analysis techniques help Business Analysts:
+- Replace opinion with structure
+- Make trade-offs explicit
+- Support confident, defensible decisions
+
+The **choice of technique depends on decision complexity, risk, and stakeholder needs**.
+
 
 ---
 
