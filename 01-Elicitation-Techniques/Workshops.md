@@ -53,21 +53,151 @@ In such cases, **interviews or observation** may be more effective.
 
 ---
 
-## 5. Types of Workshops
+## 5. Types of Workshops (Detailed)
 
-### Discovery Workshops
-Used to explore problems, needs, and opportunities when the problem space is still evolving.
-
-### Requirements Workshops
-Used to define, refine, and validate business or solution requirements collaboratively.
-
-### Prioritization Workshops
-Used to rank requirements, features, risks, or initiatives based on value and constraints.
-
-### Decision Workshops
-Used to evaluate alternatives and reach agreement on a chosen course of action.
+Workshops can be tailored to different objectives depending on the **stage of the initiative, maturity of understanding, and decision needs**.  
+Choosing the appropriate workshop type ensures focused outcomes and effective stakeholder collaboration.
 
 ---
+
+### 5.1 Discovery Workshops
+
+Discovery Workshops are used to **explore problems, needs, and opportunities** when the problem space is still unclear or evolving.  
+They focus on understanding *what is happening* and *why change may be required*, rather than defining solutions.
+
+**How it works:**
+- The BA facilitates open discussions around pain points and goals
+- Stakeholders share perspectives and experiences
+- Problems, assumptions, and constraints are surfaced
+- No commitment to solutions is made
+
+**When to use:**
+- Early stages of an initiative
+- When objectives are unclear
+- When stakeholder perspectives differ
+- During strategy or transformation planning
+
+**Advantages:**
+- Builds shared understanding
+- Encourages open dialogue
+- Surfaces hidden issues and assumptions
+
+**Limitations:**
+- Outcomes may be broad or high-level
+- Requires strong facilitation to avoid scope drift
+
+**Example (Banking / IT):**
+Exploring operational challenges in a manual reconciliation process before proposing automation.
+
+---
+
+### 5.2 Requirements Workshops
+
+Requirements Workshops are used to **define, refine, and validate requirements collaboratively**.  
+They bring together business, IT, and other stakeholders to reach shared agreement on what the solution must deliver.
+
+**How it works:**
+- The BA presents elicited requirements or scenarios
+- Stakeholders review, discuss, and refine details
+- Conflicts and ambiguities are resolved in-session
+- Requirements are validated and agreed
+
+**When to use:**
+- After initial elicitation
+- When multiple stakeholders influence requirements
+- When fast consensus is required
+- In complex or cross-functional initiatives
+
+**Advantages:**
+- Accelerates requirements definition
+- Reduces rework and misinterpretation
+- Improves stakeholder buy-in
+
+**Limitations:**
+- Requires availability of key stakeholders
+- Can be challenging if conflicts are unresolved
+
+**Example (Banking / IT):**
+Validating regulatory reporting requirements with Compliance, Operations, and IT together.
+
+---
+
+### 5.3 Prioritization Workshops
+
+Prioritization Workshops are used to **rank requirements, features, risks, or initiatives** based on agreed criteria such as value, urgency, risk, and feasibility.
+
+**How it works:**
+- Items to be prioritized are listed
+- Prioritization criteria are defined
+- Techniques such as MoSCoW, voting, or weighted scoring are applied
+- Final priorities are agreed collaboratively
+
+**When to use:**
+- When scope exceeds capacity
+- During release or roadmap planning
+- When stakeholder priorities conflict
+- In agile or iterative delivery environments
+
+**Advantages:**
+- Transparent decision-making
+- Shared ownership of priorities
+- Reduces downstream conflicts
+
+**Limitations:**
+- May be influenced by stakeholder power dynamics
+- Requires facilitation to manage bias
+
+**Example (Banking / IT):**
+Prioritizing regulatory enhancements versus efficiency improvements under fixed timelines.
+
+---
+
+### 5.4 Decision Workshops
+
+Decision Workshops are used to **evaluate alternatives and reach agreement on a chosen course of action**.  
+They focus on making informed, defensible decisions rather than generating ideas.
+
+**How it works:**
+- Options are presented and clarified
+- Evaluation criteria are agreed
+- Options are assessed collaboratively
+- A decision or recommendation is finalized
+
+**When to use:**
+- When major trade-offs are involved
+- When multiple solution options exist
+- When executive or cross-functional alignment is required
+
+**Advantages:**
+- Enables structured decision-making
+- Reduces ambiguity and delays
+- Produces clear outcomes
+
+**Limitations:**
+- Requires decision-makers to be present
+- Can stall if consensus cannot be reached
+
+**Example (Banking / IT):**
+Selecting between vendor solutions for a reporting platform based on cost, risk, and compliance.
+
+---
+
+## 5.5 Choosing the Right Workshop Type
+
+| Objective | Recommended Workshop Type |
+|--------|---------------------------|
+| Explore problem space | Discovery Workshop |
+| Define or validate requirements | Requirements Workshop |
+| Rank scope or features | Prioritization Workshop |
+| Select a solution or approach | Decision Workshop |
+
+---
+
+## Key Takeaway
+
+Effective workshops are **purpose-driven**.  
+Selecting the right workshop type ensures focused discussions, clear outcomes, and strong stakeholder alignment.
+
 
 ## 6. How to Apply Workshops – Step by Step
 
