@@ -57,6 +57,7 @@ Relying only on interviews in large initiatives can lead to **fragmented underst
 
 ## 5. Types of Interviews
 
+```mermaid
 flowchart TD
     A[Interview Technique] --> B{Level of Structure Needed?}
 
