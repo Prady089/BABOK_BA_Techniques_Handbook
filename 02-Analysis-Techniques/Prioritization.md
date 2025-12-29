@@ -65,8 +65,14 @@ In such cases, **sequencing rather than prioritization** may be sufficient.
 ### MoSCoW
 Must have, Should have, Could have, Won’t have.
 
+![ChatGPT Image Dec 29, 2025, 12_46_52 PM](https://github.com/user-attachments/assets/625d1243-9711-45be-9c66-06e6288bbbfb)
+
+
 ### Value vs Effort
 Compares business value against implementation effort.
+
+<img width="800" height="1065" alt="ChatGPT Image Dec 29, 2025, 12_50_17 PM" src="https://github.com/user-attachments/assets/acdaa963-5cce-4867-8a7f-93f60c9ea97c" />
+
 
 ### Risk-Based Prioritization
 Focuses on reducing high-risk items early.
