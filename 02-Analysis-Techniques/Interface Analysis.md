@@ -60,6 +60,9 @@ In such cases, **basic requirements documentation** may be sufficient.
 
 ## 5. Key Interface Elements to Analyze
 
+![ChatGPT Image Dec 29, 2025, 12_36_58 PM](https://github.com/user-attachments/assets/57d9332c-68cf-4cf2-9071-6df2b02a20a6)
+
+
 - Source system or process
 - Target system or process
 - Data elements exchanged
