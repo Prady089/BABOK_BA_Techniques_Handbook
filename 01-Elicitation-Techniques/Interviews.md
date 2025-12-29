@@ -57,6 +57,8 @@ Relying only on interviews in large initiatives can lead to **fragmented underst
 
 ## 5. Types of Interviews – Structure Overview
 
+
+
 ```mermaid
 flowchart TD
     A[Interview Technique] --> B{Level of Structure Needed?}
@@ -79,6 +81,8 @@ flowchart TD
     E --> E2[Exploratory Questions]
     E --> E3[Free Flow Discussion]
     E --> E4[Focus: Discovery & Insight]
+
+
 
 
 ## Types of Interviews
