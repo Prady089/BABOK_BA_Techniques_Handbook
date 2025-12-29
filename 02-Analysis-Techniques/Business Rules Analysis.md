@@ -56,23 +56,146 @@ In such cases, **process analysis alone** may be sufficient.
 
 ---
 
-## 5. Types of Business Rules
+## 5. Types of Business Rules (Detailed)
 
-### Constraint Rules
-Limit what can or cannot be done  
-*Example: “A transaction amount must not exceed approval limits.”*
+Business rules define **how an organization operates, makes decisions, and enforces constraints**.  
+Understanding different types of business rules helps the Business Analyst identify, document, and manage them accurately.
 
-### Computation Rules
-Define calculations  
-*Example: “Interest is calculated daily using balance and rate.”*
+---
 
-### Inference Rules
-Derive new information from existing data  
-*Example: “If account is dormant for 12 months, classify as inactive.”*
+### 5.1 Constraint Rules
 
-### Validation Rules
-Ensure data accuracy and completeness  
-*Example: “Account number must be 12 digits.”*
+Constraint Rules **limit or restrict what can or cannot be done** within a process or system.  
+They enforce boundaries to ensure compliance, control, and risk management.
+
+**What they control:**
+- Limits
+- Prohibitions
+- Mandatory conditions
+
+**When to use / identify:**
+- Regulatory requirements
+- Approval limits
+- Policy enforcement
+- Risk controls
+
+**Advantages:**
+- Prevents unauthorized or risky actions
+- Enforces compliance consistently
+- Reduces operational risk
+
+**Limitations:**
+- Can reduce flexibility
+- May require frequent updates if policies change
+
+**Example (Banking / IT):**
+A transaction amount must not exceed approval limits based on user role.
+
+---
+
+### 5.2 Computation Rules
+
+Computation Rules define **how values are calculated** using formulas or algorithms.  
+They ensure consistency in financial and operational calculations.
+
+**What they control:**
+- Calculations
+- Formulas
+- Derivations
+
+**When to use / identify:**
+- Financial calculations
+- Pricing or fee determination
+- Interest or penalty computation
+
+**Advantages:**
+- Ensures consistent results
+- Reduces manual errors
+- Enables automation
+
+**Limitations:**
+- Sensitive to input data quality
+- Often embedded deep in systems
+
+**Example (Banking / IT):**
+Interest is calculated daily using account balance and interest rate.
+
+---
+
+### 5.3 Inference Rules
+
+Inference Rules **derive new information from existing data** by applying logical conditions.  
+They classify, infer, or determine states based on defined criteria.
+
+**What they control:**
+- Status determination
+- Classification
+- Eligibility logic
+
+**When to use / identify:**
+- Customer or account classification
+- Eligibility decisions
+- Risk scoring
+
+**Advantages:**
+- Enables decision automation
+- Improves consistency in classification
+- Reduces manual judgment
+
+**Limitations:**
+- Logic can become complex
+- Requires clear rule sequencing
+
+**Example (Banking / IT):**
+If an account is dormant for 12 months, classify it as inactive.
+
+---
+
+### 5.4 Validation Rules
+
+Validation Rules ensure **data accuracy, completeness, and correctness** before it is accepted or processed.  
+They act as data quality controls.
+
+**What they control:**
+- Format
+- Mandatory fields
+- Data integrity
+
+**When to use / identify:**
+- Data entry points
+- Interfaces
+- Reporting systems
+
+**Advantages:**
+- Improves data quality
+- Reduces downstream errors
+- Supports compliance and reporting accuracy
+
+**Limitations:**
+- Over-validation may impact usability
+- Requires alignment with data definitions
+
+**Example (Banking / IT):**
+Account number must be exactly 12 digits.
+
+---
+
+## 5.5 Choosing the Right Business Rule Type
+
+| Scenario | Business Rule Type |
+|--------|--------------------|
+| Enforcing limits or controls | Constraint Rule |
+| Performing calculations | Computation Rule |
+| Determining status or classification | Inference Rule |
+| Validating data inputs | Validation Rule |
+
+---
+
+## Key Takeaway
+
+Business rules must be **clearly classified and documented** to avoid ambiguity and inconsistency.  
+Effective Business Analysts identify rule types early to support automation, compliance, and reliable decision-making.
+
 
 ---
 
