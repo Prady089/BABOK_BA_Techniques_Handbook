@@ -55,16 +55,156 @@ In such cases, **lightweight data definitions** may be sufficient.
 
 ---
 
-## 5. Types of Data Models
+## 5. Types of Data Models (Detailed)
 
-### Conceptual Data Model
-High-level view of key business entities and relationships, without attributes.
+Data models can be created at different levels of abstraction depending on **purpose, audience, and stage of the initiative**.  
+Understanding these types helps a Business Analyst choose the **right level of detail at the right time**.
 
-### Logical Data Model
-Defines entities, attributes, relationships, and business rules, independent of technology.
+![ChatGPT Image Dec 29, 2025, 12_23_53 PM](https://github.com/user-attachments/assets/5dbd720a-3d29-42a3-9376-173807bc5a43)
 
-### Physical Data Model
-Represents how data is stored in a specific system or database (usually owned by technical teams).
+---
+
+### 5.1 Conceptual Data Model
+
+A Conceptual Data Model provides a **high-level, business-focused view** of the key entities and how they relate to each other.  
+It focuses on **what data exists**, not how it is stored or implemented.
+
+**What it includes:**
+- Core business entities
+- High-level relationships between entities
+- Business terminology
+
+**What it deliberately excludes:**
+- Attributes
+- Data types
+- Keys
+- Technical constraints
+
+**Primary audience:**
+- Business stakeholders
+- Product owners
+- Senior management
+
+**When to use:**
+- Early stages of an initiative
+- During discovery or strategy analysis
+- When establishing a shared business vocabulary
+- Before detailed requirements are defined
+
+**Advantages:**
+- Easy for non-technical stakeholders to understand
+- Establishes common language
+- Prevents misunderstanding of core concepts
+
+**Limitations:**
+- Not detailed enough for system design
+- Cannot be directly implemented
+
+**Example (Banking / IT):**
+Entities such as **Customer**, **Account**, **Transaction**, and **Product**, with simple relationships like “Customer owns Account”.
+
+---
+
+### 5.2 Logical Data Model
+
+A Logical Data Model expands on the conceptual model by defining **attributes, relationships, and business rules**, while remaining **independent of specific technology or databases**.
+
+It represents **how data is logically structured** from a business perspective.
+
+**What it includes:**
+- Entities and attributes
+- Primary and foreign keys (logical)
+- Relationships and cardinality
+- Business rules and constraints
+
+**What it excludes:**
+- Database-specific data types
+- Indexes
+- Storage or performance considerations
+
+**Primary audience:**
+- Business Analysts
+- Data Analysts
+- Solution Architects
+- Designers
+
+**When to use:**
+- During requirements analysis
+- When defining data requirements
+- Before physical database design
+- When integrating multiple systems
+
+**Advantages:**
+- Clear and detailed
+- Technology-agnostic
+- Bridges business and technical understanding
+
+**Limitations:**
+- Requires more effort and validation
+- Still not directly deployable
+
+**Example (Banking / IT):**
+Defining **Account** with attributes such as Account_Number, Account_Type, Balance, and Status, including rules like “Account_Number must be unique”.
+
+---
+
+### 5.3 Physical Data Model
+
+A Physical Data Model represents **how data is actually stored and implemented** in a specific database or system.  
+It translates the logical model into a **technology-specific design**.
+
+This model is typically owned and maintained by **technical teams**, with BA involvement for validation.
+
+**What it includes:**
+- Tables and columns
+- Data types and sizes
+- Indexes
+- Constraints
+- Database-specific features
+
+**Primary audience:**
+- Database designers
+- Developers
+- Data engineers
+
+**When to use:**
+- During system design and build
+- When implementing databases
+- For performance and storage optimization
+
+**Advantages:**
+- Directly implementable
+- Optimized for performance and storage
+
+**Limitations (from BA perspective):**
+- Highly technical
+- Less accessible to business stakeholders
+- Tied to specific technology
+
+**Example (Banking / IT):**
+SQL tables such as `CUSTOMER_TBL` and `ACCOUNT_TBL` with defined column types, indexes, and constraints.
+
+---
+
+## 5.4 Comparison of Data Model Types
+
+| Aspect | Conceptual | Logical | Physical |
+|------|-----------|---------|----------|
+| Level of Detail | Very High-level | Detailed | Very Detailed |
+| Business Focus | High | Medium | Low |
+| Technical Focus | None | Low | High |
+| Attributes Included | No | Yes | Yes |
+| Technology Dependent | No | No | Yes |
+| Primary Owner | Business Analyst | BA / Architect | Technical Teams |
+| Used For | Shared understanding | Requirements & design | Implementation |
+
+---
+
+## Key Takeaway
+
+Data modelling progresses from **conceptual → logical → physical** as understanding and design maturity increase.  
+Business Analysts primarily focus on **conceptual and logical models**, ensuring business meaning and data requirements are correct before technical implementation begins.
+
 
 ---
 
