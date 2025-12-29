@@ -69,6 +69,9 @@ Maps failure paths logically to identify root causes.
 ### Pareto Analysis
 Focuses on causes contributing to the majority of problems.
 
+<img width="1024" height="1536" alt="ChatGPT Image Dec 29, 2025, 04_01_17 PM" src="https://github.com/user-attachments/assets/c56227d9-4018-47ce-bddd-3a3e15f28418" />
+
+
 ---
 
 ## 6. How to Apply Root Cause Analysis – Step by Step
