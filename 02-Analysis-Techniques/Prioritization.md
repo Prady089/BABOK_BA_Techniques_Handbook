@@ -77,11 +77,19 @@ Compares business value against implementation effort.
 ### Risk-Based Prioritization
 Focuses on reducing high-risk items early.
 
+<img width="800" height="1065" alt="ChatGPT Image Dec 29, 2025, 12_50_17 PM" src="https://github.com/user-attachments/assets/132d7bd3-c214-4190-9462-360cd6180bae" />
+
+
 ### Stakeholder Voting
 Uses scoring or voting to rank items.
 
+<img width="1024" height="1536" alt="ChatGPT Image Dec 29, 2025, 03_37_50 PM" src="https://github.com/user-attachments/assets/19f80c2c-63a7-4d37-8a64-2c741d657069" />
+
+
 ### Weighted Scoring
 Applies weighted criteria to rank items objectively.
+
+<img width="1024" height="1536" alt="ChatGPT Image Dec 29, 2025, 03_42_11 PM" src="https://github.com/user-attachments/assets/739c9fcb-94c0-4efe-ada1-4fca1e20a105" />
 
 ---
 
