@@ -72,7 +72,77 @@ Requirements may be traced to:
 - Defects
 - Releases
 
+<img width="1024" height="1536" alt="ChatGPT Image Dec 29, 2025, 04_11_27 PM" src="https://github.com/user-attachments/assets/1485e5d4-2503-4a0f-8bf0-be1fec377274" />
+
+
 Traceability can be **forward**, **backward**, or **bidirectional**.
+
+## Requirements Traceability Matrix (RTM)
+
+A Requirements Traceability Matrix ensures that **every requirement is linked across the delivery lifecycle**, from business need to release, helping ensure **coverage, alignment, and control**.
+
+---
+
+### Sample Requirements Traceability Matrix
+
+| Req ID | Requirement Description | Business Objective | Stakeholder | Business Rule | Design Component | Test Case ID | Defect ID | Release |
+|------|-------------------------|-------------------|-------------|---------------|------------------|--------------|-----------|---------|
+| BR-01 | Capture customer details during onboarding | Improve onboarding efficiency | Retail Ops | BR-VAL-01 | UI-Onboard-01 | TC-001 | DEF-012 | R1 |
+| BR-02 | Validate account number format | Regulatory compliance | Compliance | BR-VAL-02 | Validation-Service | TC-002 | – | R1 |
+| BR-03 | Auto-calculate interest daily | Accurate interest calculation | Finance | BR-COMP-01 | Interest Engine | TC-005 | DEF-021 | R2 |
+| BR-04 | Restrict transaction above limit | Risk control | Risk Team | BR-CON-01 | Auth Module | TC-007 | – | R2 |
+
+---
+
+## How to Read This Matrix
+
+- **Req ID** → Unique requirement identifier  
+- **Business Objective** → Why the requirement exists  
+- **Design Component** → Where it is implemented  
+- **Test Case ID** → How it is validated  
+- **Defect ID** → Issues linked to the requirement  
+- **Release** → When it is delivered  
+
+---
+
+## Traceability Types Supported
+
+| Traceability Type | Description |
+|------------------|-------------|
+| Forward | Requirement → Design → Test → Release |
+| Backward | Release / Defect → Test → Design → Requirement |
+| Bidirectional | Both forward and backward tracking |
+
+---
+
+## Why RTM Is Critical for a Business Analyst
+
+- Prevents missing requirements  
+- Supports impact analysis during change  
+- Ensures full test coverage  
+- Essential for regulatory and audit environments  
+
+---
+
+## Pro Tip (Real Projects)
+
+In real projects, RTMs are often maintained in:
+- Excel / Google Sheets  
+- Jira (via links)  
+- ALM tools (HP ALM, Azure DevOps)  
+
+But **the structure always remains the same**.
+
+---
+
+### Key Takeaway
+
+If a requirement cannot be traced, it is:
+❌ Not justified  
+❌ Not testable  
+❌ At risk  
+
+Traceability is **control, not overhead**.
 
 ---
 
