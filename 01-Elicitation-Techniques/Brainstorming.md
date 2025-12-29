@@ -56,8 +56,6 @@ In such cases, **decision analysis or structured workshops** may be more effecti
 
 ## 5. Types of Brainstorming
 
-## 5. Types of Brainstorming (Detailed)
-
 Brainstorming can be conducted in different formats depending on the **objective, group dynamics, time constraints, and stakeholder behavior**.  
 Choosing the right type is critical to maximize idea quality and participation.
 
