@@ -57,32 +57,7 @@ Relying only on interviews in large initiatives can lead to **fragmented underst
 
 ## 5. Types of Interviews – Structure Overview
 
-
-
-```mermaid
-flowchart TD
-    A[Interview Technique] --> B{Level of Structure Needed?}
-
-    B -->|High| C[Structured Interview]
-    B -->|Medium| D[Semi-Structured Interview]
-    B -->|Low| E[Unstructured Interview]
-
-    C --> C1[Predefined Questions]
-    C --> C2[Same Questions for All Stakeholders]
-    C --> C3[Minimal Follow-ups]
-    C --> C4[Focus: Consistency & Validation]
-
-    D --> D1[Prepared Question Guide]
-    D --> D2[Flexible Follow-up Questions]
-    D --> D3[Adaptive Based on Responses]
-    D --> D4[Focus: Balance of Depth & Control]
-
-    E --> E1[Open Conversation]
-    E --> E2[Exploratory Questions]
-    E --> E3[Free Flow Discussion]
-    E --> E4[Focus: Discovery & Insight]
-
-
+![ChatGPT Image Dec 28, 2025, 08_14_35 PM](https://github.com/user-attachments/assets/939dcc68-a012-4527-9e50-4055906aa00b)
 
 
 ## Types of Interviews
@@ -179,17 +154,8 @@ Because there is minimal structure, this interview type requires strong listenin
 | Best Used When | Validation and compliance are critical | Balance of discovery and control is needed | Problem space is unclear or exploratory |
 | Typical BA Usage | Formal validation | Most common real-world usage | Early discovery and innovation |
 
-flowchart TD
-    A[Need to Elicit Information from Stakeholders] --> B{Is the problem space clearly understood?}
+![ChatGPT Image Dec 28, 2025, 08_17_00 PM](https://github.com/user-attachments/assets/40edcfe4-3221-4564-8377-9a1e13722eb5)
 
-    B -->|Yes| C{Is consistency and comparability critical?}
-    B -->|No| D{Is the goal exploration and learning?}
-
-    C -->|Yes| E[Choose Structured Interviews]
-    C -->|No| F[Choose Semi-Structured Interviews]
-
-    D -->|Yes| G[Choose Unstructured Interviews]
-    D -->|No| F[Choose Semi-Structured Interviews]
 
 
 ## 6. How to Apply Interviews – Step by Step
