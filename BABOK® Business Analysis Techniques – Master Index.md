@@ -1,149 +1,132 @@
-# BABOK® Business Analysis Techniques – Master Index
+# BABOK® Business Analysis Techniques – Master Index (All 50 Techniques)
 
-This repository provides a **structured, BABOK® v3–aligned reference** for Business Analysis techniques.  
-Each technique is documented in its own Markdown file with **practical guidance, real-world examples, and interview-ready explanations**.
+This repository provides a **structured, BABOK® v3–aligned reference** for Business Analysis techniques (Chapter 10).  
+Each technique is intended to have its own Markdown file with **practical guidance, real-world examples, and interview-ready explanations**.
 
-The index below maps **techniques → BABOK Knowledge Areas → repository location** for easy navigation and reference.
-
----
-
-## 1️⃣ Elicitation & Collaboration Techniques
-
-📂 Folder: `01-Elicitation-Techniques/`  
-**Purpose:** Techniques used to discover, gather, and confirm information from stakeholders and existing artifacts.
-
-| Technique | Primary Purpose | File |
-|--------|---------------|------|
-| Interviews | Direct stakeholder elicitation | Interviews.md |
-| Workshops | Group collaboration and alignment | Workshops.md |
-| Observation | Understanding real-world workflows | Observation.md |
-| Brainstorming | Idea generation and exploration | Brainstorming.md |
-| Document Analysis | Reviewing existing documentation | Document Analysis.md |
-| Focus Groups | Exploring stakeholder perceptions | Focus Groups.md |
-| Surveys and Questionnaires | Collecting large-scale stakeholder input | Surveys and Questionnaires.md |
+This master index lists **all 50 BABOK® v3 techniques** and maps them to **repository folders**.
 
 ---
 
-## 2️⃣ Requirements & Analysis Techniques  
-(Requirements Analysis & Design Definition)
-
-📂 Folder: `02-Analysis-Techniques/`  
-**Purpose:** Techniques used to analyze, structure, validate, and model elicited information.
-
-| Technique | Focus Area | File |
-|--------|-----------|------|
-| Business Rules Analysis | Decision logic and constraints | Business Rules Analysis.md |
-| Concept Modelling | Business concepts and relationships | Concept Modelling.md |
-| Data Dictionary | Data definitions and consistency | Data Dictionary.md |
-| Data Flow Diagrams | Data movement across systems | Data Flow Diagrams.md |
-| Data Modelling | Structuring business data | Data Modelling.md |
-| Process Modelling | Business workflows and processes | Process Modelling.md |
-| Functional Decomposition | Breaking down complex scope | Functional Decomposition.md |
-| Scope Modelling | Defining solution boundaries | Scope Modelling.md |
-| Scenarios and Use Cases | User–system interactions | Scenarios and Use Cases.md |
-| Sequence Diagrams | Order of system interactions | Sequence Diagrams.md |
-| State Modelling | Lifecycle and state transitions | State Modelling.md |
-| Prototyping | Early validation of solution design | Prototyping.md |
-| Non-Functional Requirements Analysis | Quality and compliance attributes | Non-Functional Requirements Analysis.md |
-| Acceptance and Evaluation Criteria | Defining success conditions | Acceptance and Evaluation Criteria.md |
-| Estimation | Effort, cost, and timeline forecasting | Estimation.md |
-| Metrics and KPIs | Measuring outcomes and value | Metrics and KPIs.md |
-| Decision Analysis | Evaluating alternatives objectively | Decision Analysis.md |
-| Prioritization | Ranking requirements and work items | Prioritization.md |
-| Root Cause Analysis | Identifying underlying problems | Root Cause Analysis.md |
-| Interface Analysis | System and process interactions | Interface Analysis.md |
-| User Stories | User-centric requirement definition | User Stories.md |
+## ✅ Legend
+- ✅ = File exists in repo (you’ve created it)
+- ⏳ = Not created yet (to be added)
 
 ---
 
-## 3️⃣ Requirements Life Cycle Management Techniques
+## 01 – Elicitation & Collaboration Techniques  
+📂 Folder: `01-Elicitation-Techniques/`
 
-📂 Folder: `03-Requirements-Life-Cycle-Management/`  
-**Purpose:** Techniques used to manage requirements from inception through change, validation, and reuse.
-
-| Technique | Focus Area | File |
-|--------|-----------|------|
-| Requirements Traceability | Linking requirements across lifecycle | Requirements Traceability.md |
-| Change Control | Managing requirement changes | Change Control.md |
-| RACI Matrix | Defining roles and accountability | RACI Matrix.md |
-| Backlog Management | Managing and refining requirement backlog | Backlog Management.md |
-| Item Tracking | Tracking requirements, issues, and actions | Item Tracking.md |
-
----
-
-## 4️⃣ Strategy Analysis Techniques
-
-📂 Folder: `04-Strategy-Analysis/`  
-**Purpose:** Techniques used to define business needs, evaluate strategic options, and justify change.
-
-| Technique | Strategic Focus | File |
-|--------|----------------|------|
-| SWOT Analysis | Internal and external assessment | SWOT Analysis.md |
-| Business Case | Investment justification | Business Case.md |
-| Gap Analysis | Current vs future capability gaps | Gap Analysis.md |
-| Risk Analysis | Identifying and managing risks | Risk Analysis.md |
-| Current vs Future State Analysis | Defining transformation scope | Current vs Future State Analysis.md |
-| Benchmarking | Comparing against industry standards | Benchmarking.md |
-| Business Capability Analysis | Identifying business abilities | Business Capability Analysis.md |
-| Business Model Canvas | Visualizing value creation | Business Model Canvas.md |
+| # | Technique (BABOK) | Purpose | File | Status |
+|---|---|---|---|---|
+| 10.5 | Brainstorming | Generate ideas & options | Brainstorming.md | ✅ |
+| 10.18 | Document Analysis | Review existing artifacts | Document Analysis.md | ✅ |
+| 10.21 | Focus Groups | Gather group perceptions | Focus Groups.md | ✅ |
+| 10.25 | Interviews | Direct stakeholder elicitation | Interviews.md | ✅ |
+| 10.31 | Observation | Understand real work practices | Observation.md | ✅ |
+| 10.45 | Survey or Questionnaire | Collect broad input efficiently | Surveys and Questionnaires.md | ✅ |
+| 10.50 | Workshops | Collaborative discovery & alignment | Workshops.md | ✅ |
 
 ---
 
-## 5️⃣ Solution Evaluation & Control Techniques
+## 02 – Strategy & Enterprise Analysis Techniques  
+📂 Folder: `04-Strategy-Analysis/`
 
-📂 Folder: `05-Solution-Evaluation/`  
-**Purpose:** Techniques used to validate solutions, control quality, and support informed decisions.
+| # | Technique (BABOK) | Purpose | File | Status |
+|---|---|---|---|---|
+| 10.3 | Balanced Scorecard | Translate strategy into measures | Balanced Scorecard.md | ⏳ |
+| 10.4 | Benchmarking and Market Analysis | Compare vs market/peers | Benchmarking and Market Analysis.md | ⏳ |
+| 10.6 | Business Capability Analysis | Identify needed business abilities | Business Capability Analysis.md | ✅ |
+| 10.7 | Business Cases | Justify change and investment | Business Cases.md | ⏳ |
+| 10.8 | Business Model Canvas | Visualize value creation model | Business Model Canvas.md | ✅ |
+| 10.46 | SWOT Analysis | Strengths/Weaknesses/Opportunities/Threats | SWOT Analysis.md | ✅ |
 
-| Technique | Evaluation Focus | File |
-|--------|------------------|------|
-| Acceptance Testing | Business validation before release | Acceptance Testing.md |
-| Decision Tables | Structured business rule evaluation | Decision Tables.md |
-| Reviews | Quality and alignment validation | Reviews.md |
-| Lessons Learned | Continuous improvement | Lessons Learned.md |
-| Vendor Assessment | Evaluating external solution providers | Vendor Assessment.md |
-
----
-
-## 6️⃣ Stakeholder & Organization Techniques
-
-📂 Folder: `06-Stakeholder-Organization/`  
-**Purpose:** Techniques used to understand stakeholders, roles, and organizational impacts.
-
-| Technique | Organizational Focus | File |
-|--------|----------------------|------|
-| Stakeholder List, Map, or Personas | Stakeholder identification and analysis | Stakeholder List, Map, or Personas.md |
-| Organization Modelling | Roles, responsibilities, and structure | Organization Modelling.md |
+> Note: If you already have `Business Case.md`, rename or align to **Business Cases.md** to match BABOK naming.
 
 ---
 
-## 📌 How to Use This Repository
+## 03 – Requirements & Analysis Techniques  
+📂 Folder: `02-Analysis-Techniques/`
 
-- **New to Business Analysis?**  
-  Start with *Elicitation Techniques* → then *Requirements & Analysis Techniques*.
-
-- **Working on a project?**  
-  Use this index to jump directly to the technique you need.
-
-- **Interview preparation?**  
-  Each technique includes **interview-ready explanations and real-world examples**.
-
-- **Reference handbook?**  
-  Bookmark this index and use individual files as deep-dive references.
+| # | Technique (BABOK) | Purpose | File | Status |
+|---|---|---|---|---|
+| 10.1 | Acceptance and Evaluation Criteria | Define measurable success conditions | Acceptance and Evaluation Criteria.md | ✅ |
+| 10.2 | Backlog Management | Organize and refine work items | Backlog Management.md | ✅ |
+| 10.9 | Business Rules Analysis | Define constraints & logic | Business Rules Analysis.md | ✅ |
+| 10.11 | Concept Modelling | Define concepts & relationships | Concept Modelling.md | ✅ |
+| 10.12 | Data Dictionary | Define data terms consistently | Data Dictionary.md | ✅ |
+| 10.13 | Data Flow Diagrams | Model data movement | Data Flow Diagrams.md | ✅ |
+| 10.14 | Data Mining | Find patterns from data | Data Mining.md | ⏳ |
+| 10.15 | Data Modelling | Model data structures | Data Modelling.md | ✅ |
+| 10.16 | Decision Analysis | Compare options objectively | Decision Analysis.md | ✅ |
+| 10.17 | Decision Modelling | Model decisions (e.g., DMN-style) | Decision Modelling.md | ⏳ |
+| 10.19 | Estimation | Forecast effort/time/cost | Estimation.md | ✅ |
+| 10.20 | Financial Analysis | Cost/benefit & financial impact | Financial Analysis.md | ⏳ |
+| 10.22 | Functional Decomposition | Break scope into parts | Functional Decomposition.md | ✅ |
+| 10.24 | Interface Analysis | Analyze system/process interfaces | Interface Analysis.md | ✅ |
+| 10.28 | Metrics and Key Performance Indicators (KPIs) | Define measures of success | Metrics and KPIs.md | ✅ |
+| 10.29 | Mind Mapping | Organize ideas visually | Mind Mapping.md | ⏳ |
+| 10.30 | Non-Functional Requirements Analysis | Define quality attributes | Non-Functional Requirements Analysis.md | ✅ |
+| 10.33 | Prioritization | Rank requirements by value | Prioritization.md | ✅ |
+| 10.34 | Process Analysis | Analyze/improve processes | Process Analysis.md | ⏳ |
+| 10.35 | Process Modelling | Model workflows and handoffs | Process Modelling.md | ✅ |
+| 10.36 | Prototyping | Validate understanding early | Prototyping.md | ✅ |
+| 10.38 | Risk Analysis and Management | Identify/assess/manage risks | Risk Analysis.md | ✅ |
+| 10.40 | Root Cause Analysis | Find underlying causes | Root Cause Analysis.md | ✅ |
+| 10.41 | Scope Modelling | Define boundaries clearly | Scope Modelling.md | ✅ |
+| 10.42 | Sequence Diagrams | Order of interactions | Sequence Diagrams.md | ✅ |
+| 10.44 | State Modelling | Entity lifecycle states | State Modelling.md | ✅ |
+| 10.47 | Use Cases and Scenarios | User-system interactions | Scenarios and Use Cases.md | ✅ |
+| 10.48 | User Stories | User-centered requirements | User Stories.md | ✅ |
 
 ---
 
-## 🎯 BABOK® Coverage Status
+## 04 – Requirements Life Cycle & Governance Techniques  
+📂 Folder: `03-Requirements-Life-Cycle-Management/`
 
-✔️ Elicitation & Collaboration – Complete  
-✔️ Requirements Analysis & Design Definition – Complete  
-✔️ Requirements Life Cycle Management – Complete  
-✔️ Strategy Analysis – Complete  
-✔️ Solution Evaluation – Complete  
-✔️ Stakeholder & Organization – Complete  
+| # | Technique (BABOK) | Purpose | File | Status |
+|---|---|---|---|---|
+| 10.26 | Item Tracking | Track issues/requirements/actions | Item Tracking.md | ✅ |
+| 10.39 | Roles and Permissions Matrix | Clarify decision rights & access | Roles and Permissions Matrix.md | ⏳ |
+| 10.10 | Collaborative Games | Facilitate shared understanding | Collaborative Games.md | ⏳ |
 
-
+> Note: BABOK’s **Roles and Permissions Matrix** is the official technique name (many teams also use RACI/DACI, but BABOK’s listed technique here is Roles & Permissions Matrix).
 
 ---
 
-**Maintained as a practical, practitioner-first BABOK® reference.**  
-Feel free to fork, star, or adapt for learning, interviews, and real-world delivery.
+## 05 – Solution Evaluation & Control Techniques  
+📂 Folder: `05-Solution-Evaluation/`
+
+| # | Technique (BABOK) | Purpose | File | Status |
+|---|---|---|---|---|
+| 10.37 | Reviews | Validate quality/alignment | Reviews.md | ✅ |
+| 10.27 | Lessons Learned | Capture improvements | Lessons Learned.md | ✅ |
+| 10.49 | Vendor Assessment | Evaluate vendors/solutions | Vendor Assessment.md | ✅ |
+
+---
+
+## 06 – Stakeholder & Organization Techniques  
+📂 Folder: `06-Stakeholder-Organization/`
+
+| # | Technique (BABOK) | Purpose | File | Status |
+|---|---|---|---|---|
+| 10.32 | Organizational Modelling | Roles/structure/impact | Organization Modelling.md | ✅ |
+| 10.43 | Stakeholder List, Map, or Personas | Identify & analyze stakeholders | Stakeholder List, Map, or Personas.md | ✅ |
+
+---
+
+## Appendix / Reference (BABOK listed inside Chapter 10)
+📂 Folder: `00-Reference/` (recommended)
+
+| # | Item | Purpose | File | Status |
+|---|---|---|---|---|
+| 10.23 | Glossary | BABOK glossary reference | Glossary.md | ⏳ |
+
+---
+
+## 🎯 Coverage Summary
+- Total BABOK techniques: **50**
+- ✅ Completed in repo: **(count your ✅ above)**
+- ⏳ Remaining to add next:  
+  Balanced Scorecard, Benchmarking & Market Analysis, Business Cases, Data Mining, Decision Modelling, Financial Analysis, Mind Mapping, Process Analysis, Roles & Permissions Matrix, Collaborative Games, Glossary.
+
+---
