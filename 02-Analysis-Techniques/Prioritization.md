@@ -1,4 +1,6 @@
 Prioritization
+
+
 Overview
 Definition: Prioritization is a systematic technique used by Business Analysts to determine the relative importance, urgency, and sequence of requirements, features, initiatives, risks, or other work items when resources, time, or budget are constrained. It establishes a clear order for addressing items to maximize business value and minimize risk.
 Purpose: Prioritization ensures that organizations invest their limited resources—time, money, and people—in work that delivers the greatest return on investment. It transforms competing demands into an ordered plan that aligns with strategic objectives while managing stakeholder expectations transparently.
