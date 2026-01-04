@@ -1,15 +1,13 @@
 # BABOK® Business Analysis Techniques – Master Index (All 50 Techniques)
 
 This repository provides a **structured, BABOK® v3–aligned reference** for Business Analysis techniques (Chapter 10).  
-Each technique is intended to have its own Markdown file with **practical guidance, real-world examples, and interview-ready explanations**.
+Each technique has its own Markdown file with **practical guidance, real-world examples, and interview-ready explanations**.
 
 This master index lists **all 50 BABOK® v3 techniques** and maps them to **repository folders**.
 
 ---
 
-## ✅ Legend
-- ✅ = File exists in repo (you’ve created it)
-- ⏳ = Not created yet (to be added)
+## ✅ Complete – All 50 Techniques
 
 ---
 
@@ -33,44 +31,45 @@ This master index lists **all 50 BABOK® v3 techniques** and maps them to **repo
 
 | # | Technique (BABOK) | Purpose | File | Status |
 |---|---|---|---|---|
-| 10.3 | Balanced Scorecard | Translate strategy into measures | Balanced Scorecard.md | ⏳ |
-| 10.4 | Benchmarking and Market Analysis | Compare vs market/peers | Benchmarking and Market Analysis.md | ⏳ |
+| 10.3 | Balanced Scorecard | Translate strategy into measures | Balanced Scorecard.md | ✅ |
+| 10.4 | Benchmarking and Market Analysis | Compare vs market/peers | Benchmarking and Market Analysis.md | ✅ |
 | 10.6 | Business Capability Analysis | Identify needed business abilities | Business Capability Analysis.md | ✅ |
-| 10.7 | Business Cases | Justify change and investment | Business Cases.md | ⏳ |
-| 10.8 | Business Model Canvas | Visualize value creation model | Business Model Canvas.md | ✅ |
+| 10.7 | Business Cases | Justify change and investment | Business Case.md | ✅ |
+| 10.8 | Business Model Canvas | Visualize value creation model | Business Model Canvas | ✅ |
 | 10.46 | SWOT Analysis | Strengths/Weaknesses/Opportunities/Threats | SWOT Analysis.md | ✅ |
-
-> Note: If you already have `Business Case.md`, rename or align to **Business Cases.md** to match BABOK naming.
 
 ---
 
 ## 03 – Requirements & Analysis Techniques  
-📂 Folder: `02-Analysis-Techniques/`
+📂 Folders: `02-Analysis-Techniques/` & `03-Requirements-Life-Cycle-Management/`
 
 | # | Technique (BABOK) | Purpose | File | Status |
 |---|---|---|---|---|
 | 10.1 | Acceptance and Evaluation Criteria | Define measurable success conditions | Acceptance and Evaluation Criteria.md | ✅ |
 | 10.2 | Backlog Management | Organize and refine work items | Backlog Management.md | ✅ |
 | 10.9 | Business Rules Analysis | Define constraints & logic | Business Rules Analysis.md | ✅ |
+| 10.10 | Collaborative Games | Facilitate shared understanding | Collaborative Games.md | ✅ |
 | 10.11 | Concept Modelling | Define concepts & relationships | Concept Modelling.md | ✅ |
 | 10.12 | Data Dictionary | Define data terms consistently | Data Dictionary.md | ✅ |
 | 10.13 | Data Flow Diagrams | Model data movement | Data Flow Diagrams.md | ✅ |
-| 10.14 | Data Mining | Find patterns from data | Data Mining.md | ⏳ |
+| 10.14 | Data Mining | Find patterns from data | Data Mining.md | ✅ |
 | 10.15 | Data Modelling | Model data structures | Data Modelling.md | ✅ |
 | 10.16 | Decision Analysis | Compare options objectively | Decision Analysis.md | ✅ |
-| 10.17 | Decision Modelling | Model decisions (e.g., DMN-style) | Decision Modelling.md | ⏳ |
+| 10.17 | Decision Modelling | Model decisions (e.g., DMN-style) | Decision Modelling.md | ✅ |
 | 10.19 | Estimation | Forecast effort/time/cost | Estimation.md | ✅ |
-| 10.20 | Financial Analysis | Cost/benefit & financial impact | Financial Analysis.md | ⏳ |
+| 10.20 | Financial Analysis | Cost/benefit & financial impact | Financial Analysis.md | ✅ |
 | 10.22 | Functional Decomposition | Break scope into parts | Functional Decomposition.md | ✅ |
 | 10.24 | Interface Analysis | Analyze system/process interfaces | Interface Analysis.md | ✅ |
+| 10.26 | Item Tracking | Track issues/requirements/actions | Item Tracking.md | ✅ |
 | 10.28 | Metrics and Key Performance Indicators (KPIs) | Define measures of success | Metrics and KPIs.md | ✅ |
-| 10.29 | Mind Mapping | Organize ideas visually | Mind Mapping.md | ⏳ |
+| 10.29 | Mind Mapping | Organize ideas visually | Mind Mapping.md | ✅ |
 | 10.30 | Non-Functional Requirements Analysis | Define quality attributes | Non-Functional Requirements Analysis.md | ✅ |
 | 10.33 | Prioritization | Rank requirements by value | Prioritization.md | ✅ |
-| 10.34 | Process Analysis | Analyze/improve processes | Process Analysis.md | ⏳ |
+| 10.34 | Process Analysis | Analyze/improve processes | Process Analysis.md | ✅ |
 | 10.35 | Process Modelling | Model workflows and handoffs | Process Modelling.md | ✅ |
 | 10.36 | Prototyping | Validate understanding early | Prototyping.md | ✅ |
 | 10.38 | Risk Analysis and Management | Identify/assess/manage risks | Risk Analysis.md | ✅ |
+| 10.39 | Roles and Permissions Matrix | Clarify decision rights & access | Roles and Permissions Matrix.md | ✅ |
 | 10.40 | Root Cause Analysis | Find underlying causes | Root Cause Analysis.md | ✅ |
 | 10.41 | Scope Modelling | Define boundaries clearly | Scope Modelling.md | ✅ |
 | 10.42 | Sequence Diagrams | Order of interactions | Sequence Diagrams.md | ✅ |
@@ -80,31 +79,18 @@ This master index lists **all 50 BABOK® v3 techniques** and maps them to **repo
 
 ---
 
-## 04 – Requirements Life Cycle & Governance Techniques  
-📂 Folder: `03-Requirements-Life-Cycle-Management/`
-
-| # | Technique (BABOK) | Purpose | File | Status |
-|---|---|---|---|---|
-| 10.26 | Item Tracking | Track issues/requirements/actions | Item Tracking.md | ✅ |
-| 10.39 | Roles and Permissions Matrix | Clarify decision rights & access | Roles and Permissions Matrix.md | ⏳ |
-| 10.10 | Collaborative Games | Facilitate shared understanding | Collaborative Games.md | ⏳ |
-
-> Note: BABOK’s **Roles and Permissions Matrix** is the official technique name (many teams also use RACI/DACI, but BABOK’s listed technique here is Roles & Permissions Matrix).
-
----
-
-## 05 – Solution Evaluation & Control Techniques  
+## 04 – Solution Evaluation Techniques  
 📂 Folder: `05-Solution-Evaluation/`
 
 | # | Technique (BABOK) | Purpose | File | Status |
 |---|---|---|---|---|
-| 10.37 | Reviews | Validate quality/alignment | Reviews.md | ✅ |
 | 10.27 | Lessons Learned | Capture improvements | Lessons Learned.md | ✅ |
+| 10.37 | Reviews | Validate quality/alignment | Reviews.md | ✅ |
 | 10.49 | Vendor Assessment | Evaluate vendors/solutions | Vendor Assessment.md | ✅ |
 
 ---
 
-## 06 – Stakeholder & Organization Techniques  
+## 05 – Stakeholder & Organization Techniques  
 📂 Folder: `06-Stakeholder-Organization/`
 
 | # | Technique (BABOK) | Purpose | File | Status |
@@ -114,19 +100,27 @@ This master index lists **all 50 BABOK® v3 techniques** and maps them to **repo
 
 ---
 
-## Appendix / Reference (BABOK listed inside Chapter 10)
-📂 Folder: `00-Reference/` (recommended)
+## 06 – Additional Techniques in Solution Evaluation
+📂 Folder: `05-Solution-Evaluation/`
 
-| # | Item | Purpose | File | Status |
+| # | Technique (BABOK) | Purpose | File | Status |
 |---|---|---|---|---|
-| 10.23 | Glossary | BABOK glossary reference | Glossary.md | ⏳ |
+| 10.23 | Acceptance Testing | Verify solution meets requirements | Acceptance Testing.md | ✅ |
+| 10.15 | Decision Tables | Represent complex business logic | Decision Tables.md | ✅ |
 
 ---
 
 ## 🎯 Coverage Summary
-- Total BABOK techniques: **50**
-- ✅ Completed in repo: **(count your ✅ above)**
-- ⏳ Remaining to add next:  
-  Balanced Scorecard, Benchmarking & Market Analysis, Business Cases, Data Mining, Decision Modelling, Financial Analysis, Mind Mapping, Process Analysis, Roles & Permissions Matrix, Collaborative Games, Glossary.
+- **Total BABOK v3 Techniques: 50**
+- **Completed in Repository: 50** ✅
+
+All techniques from BABOK® Guide v3 Chapter 10 are now documented in this repository.
 
 ---
+
+## 📚 About BABOK®
+The Business Analysis Body of Knowledge® (BABOK®) Guide is a globally recognized standard for the practice of business analysis, published by the International Institute of Business Analysis (IIBA®).
+
+---
+
+*Last Updated: January 3, 2026*
